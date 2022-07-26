@@ -7,9 +7,9 @@ html {
     padding-right: 0px;
     padding-left: 0px;
 }
-body {
+/*body {
 }
-/* body {
+ body {
   height: 100%;
   color: #333;
   background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
@@ -27,11 +27,9 @@ body {
 .main {
     height: auto;
     padding-bottom: 200px;
-
     /* border: 3px solid red; */
     /* padding-top: 50px ; */
     background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-
     /* padding-bottom: 500px; */
     /* background: #000; */
 }
@@ -41,11 +39,11 @@ body {
 }
 
 .item {
-  
-
     border: 1px solid rgba(0, 0, 0, 0.3);
     margin: 2rem 0;
     border-radius: 10px;
+    padding: 5px 20px;
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .item > h2 {
@@ -166,13 +164,10 @@ body {
         #fff800 100%
     );
 }
+
 .gradient-default:hover {
     background-color: #91989f;
     color: black;
-}
-
-.fixed-bottom {
-    /* margin-top: 5000px; */
 }
 
 .test {
