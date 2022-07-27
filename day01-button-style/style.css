@@ -15,9 +15,8 @@ img {
 }
 
 .banner {
-    /* height: 30vh; */
     height: 420px;
-    background-image: url('https://picsum.photos/1920/1080?random=1');
+    background-image: url('./banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -37,11 +36,6 @@ img {
 }
 
 footer {
-    /* height: 10px; */
-    /* bottom: 0;
-    width: 100%;
-    */
-
     flex: 0 0 auto;
 }
 
@@ -95,8 +89,9 @@ h2 {
     box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
 }
 
-.item > h2 {
-    margin-top: 1rem;
+
+.path {
+    
 }
 
 .fa-center {
@@ -262,7 +257,6 @@ h2 {
 }
 
 /* 透明背景 */
-
 .btns-outline {
     border: 2px solid black;
     background-color: white;
@@ -326,12 +320,22 @@ h2 {
 }
 
 .fa {
-    padding: 20px;
     font-size: 30px;
-    width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 5px;
+}
+
+.fa-social {
+    padding: 15px 10px;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fa:hover {
@@ -442,39 +446,6 @@ h2 {
 .fa-rss {
     background: #ff6600;
     color: white;
-}
-
-.dropdown {
-    position: absolute;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.btns-menu:hover,
-.dropdown:hover .btns-menu {
-    background-color: #0b7dda;
 }
 
 .test {

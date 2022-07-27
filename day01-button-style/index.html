@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark primary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"
-                    >IT 鐵人賽 2022 - Button Style</a
+                    >IT 鐵人賽 2022 - Button Components</a
                 >
                 <button
                     class="navbar-toggler"
@@ -95,17 +95,21 @@
                 /> -->
             </div>
 
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">首頁</a></li>
-                    <li class="breadcrumb-item"><a href="#">前端元件</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">
-                        Button Style
-                    </li>
-                </ol>
-            </nav>
+            <div class="pat">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                        <li class="breadcrumb-item">
+                            <a href="#">前端元件</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Button Components
+                        </li>
+                    </ol>
+                </nav>
+            </div>
 
-            <div class="main pt-5">
+            <div class="main p-1 p-md-5">
                 <!-- <div class="container overflow-hidden">
                 <div class="row gx-5">
                     <div class="col item">
@@ -125,20 +129,24 @@
             </div> -->
 
                 <div class="container px-4 w-100">
-                    <h2>Button Style</h2>
+                    <h2>Button Components</h2>
                     我們提供了常見的按鈕元件，只要點擊按鈕，就會顯示該元件的程式碼，可以快速複製、貼上到任何你想要的地方。
                     <br /><br />
-
                     <div class="quote">
                         重複造輪子?! 我們想要的是創造，而不只是製造。 by
                         東尼先生
                     </div>
                     <br /><br />
-
                     <div class="row gx-3 gx-md-5 item">
                         <div class="col-md">
-                            <h2>Icon 按鈕</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp Icon 按鈕</h2>
+                            </div>
                             <p>Icon buttons:</p>
+
                             <div
                                 class="icon-wrap d-flex align-items-center justify-content-star flex-wrap gap-3"
                             >
@@ -158,6 +166,7 @@
                                     <i class="fa fa-center fa-folder"></i>
                                 </button>
                             </div>
+                            <br />
                             <p>Icon buttons with text:</p>
                             <div
                                 class="icon-wrap d-flex align-items-center justify-content-star flex-wrap gap-3"
@@ -190,23 +199,42 @@
                 <div class="container px-4">
                     <div class="row gx-3 gx-md-5 item">
                         <div class="col-md">
-                            <h2>基本色</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 基本色</h2>
+                            </div>
                             <button class="btns success">Success</button>
                             <button class="btns info">Info</button>
                             <button class="btns warning">Warning</button>
                             <button class="btns danger">Danger</button>
                             <button class="btns default">Default</button>
                         </div>
+
                         <div class="col-md">
-                            <h2>日系色</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 日系色</h2>
+                            </div>
+
                             <button class="btns jp-success">Success</button>
                             <button class="btns jp-info">Info</button>
                             <button class="btns jp-warning">Warning</button>
                             <button class="btns jp-danger">Danger</button>
                             <button class="btns jp-default">Default</button>
                         </div>
+
                         <div class="col-md">
-                            <h2>漸層色</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 漸層色</h2>
+                            </div>
+
                             <button class="btns gradient-success">
                                 Success
                             </button>
@@ -224,48 +252,110 @@
                 <div class="container px-4">
                     <div class="row gx-3 gx-md-5 item">
                         <div class="col-md">
-                            <h2>社交按鈕</h2>
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-google"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                            <a href="#" class="fa fa-youtube"></a>
-                            <a href="#" class="fa fa-instagram"></a>
-                            <a href="#" class="fa fa-pinterest"></a>
-                            <a href="#" class="fa fa-snapchat-ghost"></a>
-                            <a href="#" class="fa fa-skype"></a>
-                            <a href="#" class="fa fa-android"></a>
-                            <a href="#" class="fa fa-dribbble"></a>
-                            <a href="#" class="fa fa-vimeo"></a>
-                            <a href="#" class="fa fa-tumblr"></a>
-                            <a href="#" class="fa fa-vine"></a>
-                            <a href="#" class="fa fa-foursquare"></a>
-                            <a href="#" class="fa fa-stumbleupon"></a>
-                            <a href="#" class="fa fa-flickr"></a>
-                            <a href="#" class="fa fa-yahoo"></a>
-                            <a href="#" class="fa fa-reddit"></a>
-                            <a href="#" class="fa fa-rss"></a>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 社交按鈕</h2>
+                            </div>
+                            <a href="#" class="fa fa-social fa-facebook"></a>
+                            <a href="#" class="fa fa-social fa-twitter"></a>
+                            <a href="#" class="fa fa-social fa-google"></a>
+                            <a href="#" class="fa fa-social fa-linkedin"></a>
+                            <a href="#" class="fa fa-social fa-youtube"></a>
+                            <a href="#" class="fa fa-social fa-instagram"></a>
+                            <a href="#" class="fa fa-social fa-pinterest"></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-snapchat-ghost"
+                            ></a>
+                            <a href="#" class="fa fa-social fa-skype"></a>
+                            <a href="#" class="fa fa-social fa-android"></a>
+                            <a href="#" class="fa fa-social fa-dribbble"></a>
+                            <a href="#" class="fa fa-social fa-vimeo"></a>
+                            <a href="#" class="fa fa-social fa-tumblr"></a>
+                            <a href="#" class="fa fa-social fa-vine"></a>
+                            <a href="#" class="fa fa-social fa-foursquare"></a>
+                            <a href="#" class="fa fa-social fa-stumbleupon"></a>
+                            <a href="#" class="fa fa-social fa-flickr"></a>
+                            <a href="#" class="fa fa-social fa-yahoo"></a>
+                            <a href="#" class="fa fa-social fa-reddit"></a>
+                            <a href="#" class="fa fa-social fa-rss"></a>
                             <br />
-                            <a href="#" class="fa fa-facebook radius"></a>
-                            <a href="#" class="fa fa-twitter radius"></a>
-                            <a href="#" class="fa fa-google radius"></a>
-                            <a href="#" class="fa fa-linkedin radius"></a>
-                            <a href="#" class="fa fa-youtube radius"></a>
-                            <a href="#" class="fa fa-instagram radius"></a>
-                            <a href="#" class="fa fa-pinterest radius"></a>
-                            <a href="#" class="fa fa-snapchat-ghost radius"></a>
-                            <a href="#" class="fa fa-skype radius"></a>
-                            <a href="#" class="fa fa-android radius"></a>
-                            <a href="#" class="fa fa-dribbble radius"></a>
-                            <a href="#" class="fa fa-vimeo radius"></a>
-                            <a href="#" class="fa fa-tumblr radius"></a>
-                            <a href="#" class="fa fa-vine radius"></a>
-                            <a href="#" class="fa fa-foursquare radius"></a>
-                            <a href="#" class="fa fa-stumbleupon radius"></a>
-                            <a href="#" class="fa fa-flickr radius"></a>
-                            <a href="#" class="fa fa-yahoo radius"></a>
-                            <a href="#" class="fa fa-reddit radius"></a>
-                            <a href="#" class="fa fa-rss radius"></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-facebook radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-twitter radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-google radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-linkedin radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-youtube radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-instagram radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-pinterest radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-snapchat-ghost radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-skype radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-android radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-dribbble radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-vimeo radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-tumblr radius"
+                            ></a>
+                            <a href="#" class="fa fa-social fa-vine radius"></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-foursquare radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-stumbleupon radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-flickr radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-yahoo radius"
+                            ></a>
+                            <a
+                                href="#"
+                                class="fa fa-social fa-reddit radius"
+                            ></a>
+                            <a href="#" class="fa fa-social fa-rss radius"></a>
                         </div>
                     </div>
                 </div>
@@ -273,13 +363,24 @@
                 <div class="container px-4">
                     <div class="row gx-3 gx-md-5 item">
                         <div class="col-md">
-                            <h2>點擊效果</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 點擊效果</h2>
+                            </div>
                             <p>適用於桌電</p>
                             <button class="btns-pressed">Click Me</button>
                         </div>
 
                         <div class="col-md">
-                            <h2>下拉選單按鈕</h2>
+                            <div
+                                class="h2 d-flex align-items-center justify-content-star"
+                            >
+                                <i class="fa fa-files-o" aria-hidden="true"></i>
+                                <h2>&nbsp 下拉選單按鈕</h2>
+                            </div>
+
                             <button class="btns-outline outline-success">
                                 Success
                             </button>
